@@ -3,7 +3,6 @@ import { createFileRoute } from "@tanstack/react-router";
 import hero from "@/assets/hero.jpg";
 import catGym from "@/assets/cat-gym.jpg";
 import ballsCombined from "@/assets/balls-combined.png.asset.json";
-import catVolleyball from "@/assets/cat-volleyball.jpg";
 import catCombat from "@/assets/cat-combat.jpg";
 import catSwimming from "@/assets/cat-swimming.jpg";
 import catGymnastics from "@/assets/cat-gymnastics.jpg";
