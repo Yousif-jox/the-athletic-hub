@@ -2,9 +2,7 @@ import { createFileRoute } from "@tanstack/react-router";
 
 import hero from "@/assets/hero.jpg";
 import catGym from "@/assets/cat-gym.jpg";
-import catBasketball from "@/assets/cat-basketball.jpg";
-import catFootball from "@/assets/cat-football.jpg";
-import catHandball from "@/assets/cat-handball.jpg";
+import ballsCombined from "@/assets/balls-combined.png.asset.json";
 import catVolleyball from "@/assets/cat-volleyball.jpg";
 import catCombat from "@/assets/cat-combat.jpg";
 import catSwimming from "@/assets/cat-swimming.jpg";
@@ -69,25 +67,11 @@ const categories: Category[] = [
     items: ["دمبل", "بار حديد", "كيتل بل", "حبال مقاومة", "بنش", "قفاز رفع"],
   },
   {
-    name: "كرة سلة",
-    count: "+95 منتج",
-    img: catBasketball,
-    alt: "كرة سلة على ملعب خشبي",
-    items: ["كرات مقاس 5 و 6 و 7", "سلة وحلق", "أحذية سلة", "أطقم لاعبين"],
-  },
-  {
-    name: "كرة قدم",
-    count: "+140 منتج",
-    img: catFootball,
-    alt: "كرة قدم وحذاء على النجيلة",
-    items: ["كرات مقاس 4 و 5", "أحذية نجيل طبيعي وصناعي", "واقي قصبة", "قفاز حارس"],
-  },
-  {
-    name: "كرة يد",
-    count: "+48 منتج",
-    img: catHandball,
-    alt: "كرة يد على أرضية داكنة",
-    items: ["كرات مقاس 1 و 2 و 3", "صمغ لاعبين", "واقي ركبة", "أحذية صالات"],
+    name: "كرات رياضية",
+    count: "+280 منتج",
+    img: ballsCombined.url,
+    alt: "كرات قدم وسلة ويد مع لاعبين في الخلفية",
+    items: ["كرات قدم", "كرات سلة", "كرات يد", "أحذية ملاعب", "واقيات رياضية"],
   },
   {
     name: "كرة طائرة",
