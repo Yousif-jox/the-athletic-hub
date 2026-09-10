@@ -2,9 +2,7 @@ import { createFileRoute } from "@tanstack/react-router";
 
 import hero from "@/assets/hero.jpg";
 import catGym from "@/assets/cat-gym.jpg";
-import catBasketball from "@/assets/cat-basketball.jpg";
-import catFootball from "@/assets/cat-football.jpg";
-import catHandball from "@/assets/cat-handball.jpg";
+import ballsCombined from "@/assets/balls-combined.png.asset.json";
 import catVolleyball from "@/assets/cat-volleyball.jpg";
 import catCombat from "@/assets/cat-combat.jpg";
 import catSwimming from "@/assets/cat-swimming.jpg";
